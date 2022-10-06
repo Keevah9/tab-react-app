@@ -40,7 +40,7 @@ function App() {
           <p className='job-date'>{dates}</p>
           {duties.map((duty,index)=>{
             return (
-              <div key={index} className='job-desc'> <span className='job-icon'> >>> </span>
+              <div key={index} className='job-desc'> <span className='job-icon'> >> </span>
               <p>{duty}</p>
               </div>
           )})}
